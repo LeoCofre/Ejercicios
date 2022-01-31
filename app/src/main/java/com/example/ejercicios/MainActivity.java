@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         int quimica = 5;
         int promedio = 0;
 
-        promedio  = (matematicas + fisica + quimica) / 3;
+        promedio = (matematicas + fisica + quimica) / 3;
 
-        if (promedio <= 6){
+        if (promedio <= 6) {
             Toast.makeText(this, "Aprobado", Toast.LENGTH_SHORT).show();
-        }else if(promedio <= 5){
+        } else if (promedio <= 5) {
             Toast.makeText(this, "Reprobado", Toast.LENGTH_SHORT).show();
         }
 
